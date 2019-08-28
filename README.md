@@ -3,11 +3,10 @@
 
 ###### O PROJETO
 
-Será desenvolvido um jogo de perguntas e respostas reunindo vários jogadores. O jogo será separado em rodadas e cada rodada consiste em, dado algum tema sorteado ou escolhido por algum dos jogadores, será feita alguma pergunta de conhecimentos gerais sobre aquele tema e todos os jogadores devem responder corretamente o mais rápido possível. A pontuação de cada rodada será dada pela resposta certa no menor tempo, ou seja, quanto menor o tempo da resposta correta, mais pontuação será recebida. Ao final de X rodadas ou uma determinada pontuação, o vencedor será escolhido.
-
+Será desenvolvido um jogo de trocadilhos reunindo vários jogadores. O jogo será separado em rodadas e cada rodada consiste em, dado algum tema sorteado ou palavra sugerido pelo jogo ou pelos próprios jogadores, um tempo será dado para cada pessoa escrever um trocadilho relacionado com aquele tema. Ao fim de cada rodada, todos os trocadilhos são exibidos e todos os jogadores avaliam. O trocadilho com mais votos vence a rodada e o jogador acumula uma pontuação. Ao fim de alguams rodadas, quem tiver a maior pontuação é o vencedor.
 ###### CLIENT
 
-O Client será um jogador que manda e recebe requisições (respostas da pergunta, situação do jogo em tempo real, etc.) ao servidor.
+O Client será um jogador que manda e recebe requisições (novo trocadilho, situação do jogo em tempo real, etc.) ao servidor.
 No jogo, até 8 jogadores (clients) poderão se conectar ao server ao mesmo tempo. 
 
 ###### SERVER
